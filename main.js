@@ -44,6 +44,10 @@ $( document ).ready(function() {
        } 
     });
 
+    $(document).on('click', '.game-card-container', function(){ 
+	     $("#playByPlay").click();
+	 });
+
 	$(document).on('click', '.leagueListItem', function(){ 
 	     $("#leagueBtn").html($(this).text());
 	     updateScoreBoard();

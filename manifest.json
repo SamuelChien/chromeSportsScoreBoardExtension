@@ -24,8 +24,8 @@
   "content_scripts": [
       {
         "matches": ["https://*/*", "http://*/*"],
-        "css": ["legacy.css", "main.css", "shell-desktop.css", "page.css", "datePicker/scoreboards.css", "base64-icons-woff-v6.css"],
-        "js": ["jquery.min.js", "main.js", "jquery-ui.js", "jquery-ui.css"]
+        "css": ["legacy.css", "main.css", "shell-desktop.css", "page.css", "datePicker/scoreboards.css", "jquery-ui.css", "base64-icons-woff-v6.css"],
+        "js": ["jquery.min.js", "main.js", "jquery-ui.js", "bootstrap.min.js"]
       }
     ]
 }
