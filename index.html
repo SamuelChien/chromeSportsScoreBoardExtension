@@ -1,0 +1,75 @@
+<html data-ticker-type="league" data-display-leagues="nhl" data-display-days="7" lang="en">
+    <title>Sports Update</title>
+    </style>
+        <link rel="stylesheet" href="legacy.css">
+        <link rel="stylesheet" href="main.css">
+        <script src="jquery.min.js"></script>
+        <script src="main.js"></script>
+
+        <link rel="stylesheet" href="shell-desktop.css" />
+        <link rel="stylesheet" href="page.css">
+        <link rel="stylesheet" href="datePicker/scoreboards.css">
+        <link rel="stylesheet" href="datePicker/base64-icons-woff-v6.css">
+        <script src="jquery-ui.js"></script>
+        <link rel="stylesheet" href="jquery-ui.css">
+
+    </head>
+    <body class="archive tax-leagues term-nhl term-1248">
+        <div class="container-fluid main-container-white standalone">
+            <div class="container-fluid row content-container main-content-container">
+                <div class='col-xs-12 col-sm-12 col-md-8 col-lg-9 cards-container clearfix'>
+                    <section class="col-xs-12 col-sm-6 col-xlg-4 score-box-container score-box-bottom-margin" >
+                        <div class="date-picker-carousel slick-initialized slick-slider">
+                            <button id="prevBtn" type="button" class="slick-prev slick-arrow" aria-disabled="false" style="display: block;"></button>
+                            <div aria-live="polite" class="slick-list" style="padding: 0px;">
+                                <div class="slick-track" style="opacity: 1; width: 1116px;" role="listbox">
+                                </div>
+                            </div>
+                            <button id="nextBtn" type="button" class="slick-next slick-arrow" style="display: block;" aria-disabled="false"></button>
+                        </div>
+                        <div class="calendar-container"><a id="dateIcon" class="datepicker date icon"></a></div>
+                        <div id="datepicker"></div>
+                    </section>
+
+                    <div class="dropdown-wrapper width-auto hoverable dropdown-ajaxified dropdown-type-group" data-behavior="button_dropdown" style="margin-left:20px;"> 
+                        <button id="sportBtn" class="button-filter med dropdown-toggle" type="button">Baseball</button>
+                        <ul class="dropdown-menu med" role="menu">
+                            <li>
+                                <a href="#" class="sportsListItem">Baseball</a>
+                            </li>
+                            <li>
+                                <a href="#" class="sportsListItem">Hockey</a>
+                            </li>
+                            <li>
+                                <a href="#" class="sportsListItem">Basketball</a>
+                            </li>
+                            <li>
+                                <a href="#" class="sportsListItem">Soccer</a>
+                            </li>
+                            <li>
+                                <a href="#" class="sportsListItem">Tennis</a>
+                            </li>
+                            <li>
+                                <a href="#" class="sportsListItem">Golf</a>
+                            </li>
+                            <li>
+                                <a href="#" class="sportsListItem">Racing</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown-wrapper width-auto hoverable dropdown-ajaxified dropdown-type-group" data-behavior="button_dropdown" style="margin-left:20px;"> 
+                        <button id="leagueBtn"class="button-filter med dropdown-toggle" type="button">MLB</button>
+                        <ul id="leagueDropdown" class="dropdown-menu med" role="menu">
+                            <li>
+                                <a href="#">MLB</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="gameDetailContainer" class='col-xs-12 col-sm-12 col-md-8 col-lg-9 cards-container clearfix'>
+                    
+                </div>
+            </div> <!-- /container-fluid content-container -->
+        </div> <!-- /container-fluid main-container-white -->
+    </body>
+</html>
